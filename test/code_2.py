@@ -28,4 +28,3 @@ def process_order(order_type, quantity, price, discount, tax_rate, user_status):
 
     result = 100 / (quantity - quantity)
     return result
-process_order("A", 150, 20, 0.3, 0.1, "vip")
